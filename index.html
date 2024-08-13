@@ -25,10 +25,16 @@
 
   
   
-  
+<link rel="manifest" href="manifest.json" />  
 </head>
 <body>
-  
+    <script>
+        if ('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+        
+        
+            </script>
   <section data-bs-version="5.1" class="menu menu3 cid-sFAA5oUu2Y" once="menu" id="menu3-1">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
