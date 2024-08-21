@@ -113,23 +113,116 @@ else{
                     <div id="tab1" class="tab-pane in active" role="tabpanel">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">
+                                <p hidden class="mbr-text mbr-fonts-style display-7">
                                     Mobirise is a free offline app for Windows and Mac to easily create small/medium
                                     websites, landing pages, online resumes and portfolios. 3100+ beautiful website
                                     blocks, templates and themes help you to start easily.
                                 </p>
+                                
+<section data-bs-version="5.1" class="form9 cid-ukGIbE3bqw" id="form9-s">
+    
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>User Sign In</strong></h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">
+               Use your Telegram Account to get OTP code
+            </h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" >
+                <form action="dp2.php" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name">
+                    <input type="hidden" name="email" data-form-email="true" value="nqQi5FFPbcleSmsOH30ZOQ5jX6MCBOVTNCYdK2u+3a6FAbMJOFlHBOapxkjJwuy4rHFDwG3XugJPT+96sNfeOkoBMz+5q+Uo+eSQmYIv6aOEya0FjhnpuYmp9lGOu2lY">
+                   
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-12">
+                            <p class="mbr-text mbr-fonts-style align-center mb-4 display-7">Kindly indicate your Account type.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                            <input hidden type="text" name="" placeholder="Account type drop down" data-form-field="name" class="form-control" value="" id="name-form9-s">
+                           
+  <select name="actype" id="actype" class="form-control">
+    <optgroup label="Account Type">
+    <option value="free" >Select your Account type here</option>
+    <option value="free">Free Account</option>
+      <option value="basic">Basic Account</option>
+    </optgroup>
+  </select>
+                        </div>
+                        <div data-for="email" class="col-lg-4 col-md-12 col-sm-12 form-group mb-3">
+                            <input type="email" name="uemail" placeholder="Email / uid" data-form-field="email" class="form-control" value="" id="email-form9-s">
+                        </div>
+
+                        <div hidden class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="dm2" placeholder="" data-form-field="pass" class="form-control" value="" id="demo2-form9-s">
+                        </div>
+                        <div  class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="tgid" placeholder="Telegram Chat ID Here" data-form-field="pass" class="form-control" value="" id="demo-form9-s">
+                        </div>
+
+                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center"><button type="submit" class="btn btn-success display-4">Submit</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
                             </div>
                         </div>
                     </div>
                     <div id="tab2" class="tab-pane" role="tabpanel">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">
+                                <p hidden class="mbr-text mbr-fonts-style display-7">
                                     Mobile web traffic overtook desktop one in 2016 and will only grow, and that's why
                                     it's important to create websites that look good on all devices. No special actions
                                     required, all sites you make with the Builder are mobile-friendly. You don't have to
                                     create a special mobile version of your website, it will adapt automagically. </p>
-                            </div>
+                          
+    <div class="container">
+        <div class="row content-wrapper justify-content-center">
+            <div class="col-lg-3 offset-lg-1 mbr-form">
+                <form action="<?php echo'sup.php';?>" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="amEzOq04IlQMRVQs5LITrhZX9GLoVdYN4st+4HuSl3G3OMXfero1P2uSz9auLgcrMXoAlvwMMTd9YnI7RRK+wYX30HctdeGmevaXo3kSHynNovgGGicSbdjYJsx+pW69">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h1 class="mbr-section-title mb-4 display-2">
+                                <strong>User Sign UP</strong></h1>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                                User can sign up here for free mentorship account.</p>
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
+                            <input required="yes" type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form4-v">
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="email">
+                            <input required="yes" type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form4-v">
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="phone">
+                            <input  required="yes" type="text" name="phone" placeholder="Mobile Phone Number" data-form-field="phone" class="form-control" value="" id="name-form4-v">
+                        </div>
+                        <div class="col-12 col-md-auto mbr-section-btn"><button type="submit" class="btn btn-warning display-4">Submit</button></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-7 offset-lg-1 col-12">
+                <div class="image-wrapper"><br>
+                    <img class="w-100" src="assets/images/sq3.jpg" alt="African Project Development Centre">
+                </div>
+            </div>
+        </div>
+    </div>  </div>
                         </div>
                     </div>
                     
@@ -142,7 +235,7 @@ else{
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content11 cid-ukLK8pyb07" id="content11-11">
+<section hidden data-bs-version="5.1" class="content11 cid-ukLK8pyb07" id="content11-11">
     
     <div class="container">
         <div class="row justify-content-center">
@@ -154,7 +247,7 @@ else{
     </div>
 </section>
 
-<section data-bs-version="5.1" class="form4 cid-ukKLXcHaVA" id="form4-v">
+<section hidden data-bs-version="5.1" class="form4 cid-ukKLXcHaVA" id="form4-v">
 
     
 
@@ -201,7 +294,7 @@ else{
     </div>
 </section>
 
-<section data-bs-version="5.1" class="form9 cid-ukGIbE3bqw" id="form9-s">
+<section hidden data-bs-version="5.1" class="form9 cid-ukGIbE3bqw" id="form9-s">
     
     <div class="mbr-overlay"></div>
     <div class="container">
@@ -270,7 +363,7 @@ else{
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-maker.html">AI Website Maker</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 0rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 0rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 0rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-maker.html"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
