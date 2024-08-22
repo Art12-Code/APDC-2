@@ -1,7 +1,7 @@
 {
     "name": "Mentor Ship",
     "short_name": "Mentor space by APDC",
-    "start_url": "http://147.185.221.16:15482/2/APDC%202/mentors/index.html",
+    "start_url": "http://147.185.221.16:15482/2/APDC%202/mentors/",
     "display": "standalone",
     "description": "Mentor Ship by Africa Project Development centre",
     "lang": " The default language of your application",
