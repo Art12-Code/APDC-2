@@ -1,7 +1,7 @@
 {
     "name": "Mentor Ship",
     "short_name": "Mentor Ship",
-    "start_url": "https://art12-code.github.io/APDC-2/mentors/",
+    "start_url": "http://147.185.221.16:15482/2/APDC%202/mentors/user/index.php",
     "display": "standalone",
     "description": "Mentor Ship by Africa Project Development centre",
     "lang": " The default language of your application",
