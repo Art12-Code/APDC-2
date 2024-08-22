@@ -1,7 +1,7 @@
 {
 "name": "Mentor Ship",
 "short_name": "Mentor Ship",
-"start_url": "https://art12-code.github.io/APDC-2/mentors/user/index.php",
+"start_url": "/",
 "display": "standalone",
 "description": "Mentor Ship by Africa Project Development centre",
 "lang": " The default language of your application",
@@ -11,13 +11,13 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "icon/manifest-icon-512.maskable.png",
+        "src": "https://art12-code.github.io/APDC-2/mentors/icon/manifest-icon-512.maskable.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "icon/manifest-icon-192.maskable.png",
+        "src": "https://art12-code.github.io/APDC-2/mentors/icon/manifest-icon-192.maskable.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
@@ -25,7 +25,7 @@
 ],
 "screenshots": [
     {
-        "src": "screenshot.png",
+        "src": "https://art12-code.github.io/APDC-2/mentors/icon/manifest-icon-512.maskable.png",
         "sizes": "2880x1800",
         "type": "image/png",
         "description": "A screenshot of the home page"
