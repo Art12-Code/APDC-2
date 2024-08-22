@@ -11,13 +11,13 @@
     "orientation": "any",
 "icons": [
     {
-        "src": "mentors/icon/manifest-icon-512.maskable.png",
+        "src": "http://147.185.221.16:15482/2/APDC%202/mentors/icon/manifest-icon-512.maskable.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "src": "http://147.185.221.16:15482/2/APDC%202/mentors/icon/manifest-icon-192.maskable.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
@@ -25,7 +25,7 @@
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "src": "http://147.185.221.16:15482/2/APDC%202/mentors/icon/manifest-icon-512.maskable.png",
         "sizes": "2880x1800",
         "type": "image/png",
         "description": "A screenshot of the home page"
